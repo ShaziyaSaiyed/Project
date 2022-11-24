@@ -1,0 +1,102 @@
+img{max-width: 100%;}
+*{margin: 0px;padding: 0px;box-sizing: border-box;}
+.header{width: 100%;background-image:url(images/bg\ image.png);background-repeat: no-repeat;background-size: 100% 100%;height: 800px;display: flex;}
+.header .left{width: 80%; padding: 80px;padding-top: 150px;}
+.header .left a{text-decoration: none;color: black;padding:20px;font-size: 25px;font-weight: bold;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.header .left p{font-size: 153px;font-family: myfont;margin-top: 60px;}
+@font-face {
+    font-family: myfont;
+    src: url(CormorantGaramond-MediumItalic.ttf);
+}
+.header .two p {color:#64554f;font-size: 33px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.header .two span{font-size: 15px;color:#122341 ;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+button{color: white;background-color: #ff4d00;padding: 10px;margin-top: 30px;font-weight: bold;font-size: 33px;border-radius: 10px;border: 0px;width: 250px;}
+.header .right{width: 20%;}
+.header .right img{margin-top: 140px;margin-left: 0px;}
+.header .right span{font-size: 30px;color: white;margin-top: 0px;padding: 0px;}
+
+/* @media only screen and (max-width:600px)
+{
+    .header{width: 100%;background-image:url(images/bg\ image.png);background-repeat: no-repeat;background-size: 100% 100%;height: 792px;display: flex;}
+    .header .left{width: 80%; padding: 100px;padding-top: 150px;}
+    .header .left a{text-decoration: none;color: black;padding:10px;font-size: 20px;font-weight: lighter;}
+    .header .left p{font-size: 80px;font-family: myfont;margin-top: 150px;font-weight: bold;}
+    @font-face {
+        font-family: myfont;
+        src: url(CormorantGaramond-MediumItalic.ttf);
+    }
+    .header .two p {color:#ff4b00;font-size: 20px;font-family:sans-serif;font-weight: lighter;margin-top: 120px;}
+    .header .two span{font-size: 10px;color:#122341 ;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+    .header .two button{color: white;background-color: #ff4b00;padding: 5px;margin-top: 30px;font-weight: bold;font-size: 15px;border-radius: 10px;border: 0px;width: 100px;}
+    .header .right{width: 20%;}
+    .header .right img{margin-top: 140px;margin-left: 0px;width: 20%;}
+    .header .right span{font-size: 15px;color: white;margin-top: 0px;padding: 0px;display:block;}
+} */
+
+
+.secondpage{display: flex;}
+.second{margin-left: 50px;height: 700px;width: 45%;}
+.second p{font-size: 153px;font-family: myfont;margin-top: 50px;align-items: center;}
+.sec p{align-items: center;justify-content: center;margin-top: -500px;margin-right: 30px;text-align: right; color: white;}
+
+.img{position: absolute;margin-top: 150px;margin-left: 650px;}
+
+.third{display: flex;margin-top: 100px;}
+.cold{width:70%;height: 700px;}
+.cold p{margin-left: 30px;color: white;margin-top:-500px;}
+.coldcoffee {width: 30%;} 
+.coldcoffee  p{font-size: 153px;font-family: myfont;margin-top: 50px;align-items: center;margin-right: 50px;}
+
+.fourth{display: flex;}
+.four{width: 50%; margin-left: 50px;height: 700px;}
+.four p{font-size: 153px;font-family: myfont;margin-top: 50px;align-items: center;}
+.fours {width: 60%;background-image: url(images/Shape\ \ \(3\).png);position: relative;background-repeat: no-repeat;}
+.fours  p{align-items: center;justify-content: center;margin-top: 250px;margin-right: 30px;text-align: right; color: white;}
+
+.fifth{height: 700px;background-image: url(images/Rectangle.png);background-repeat: no-repeat;background-size: cover;display: flex;}
+.fifth .images{width: 60%;}
+.fifth .img1{margin-top: 100px;margin-left: 100px;position: relative;}
+.fifth .img3{margin-top: 200px;margin-left: -550px;;position: absolute;width: 100px;}
+.fifth .images p{margin-top: -250px;margin-left: 170px;color: white;font-size: 150px;position: absolute;}
+.fifth_right{width: 40%;}
+.fifth_right p{text-align: center; margin-right: 150px;margin-top: 100px;color: rgb(13, 13, 71);font-size: 100px;font-family: myfont;margin-bottom: 30px;}
+.fifth_right span{margin-left: 60px;margin-top: 80px;font-size: 50px;background-color: #e68359;border: 2px solid orangered;border-radius: 10px;padding: 10px;}
+.fifth_right h4{margin-top: 150px;margin-right: 50px;color: rgb(13, 13, 71);}
+
+.six{height: 500px;background-image: url(images/Rectangle\ \(1\).png);margin: 30px 30px 30px 30px;border: 2px solid #031738;}
+.six p{margin-top: 20px;text-align: center;font-size: 100px;color: rgb(13, 13, 71);}
+.six h5{text-align: center;margin-left: 100px;margin-right: 100px;font-size: 20px;margin-top: 30px;font-weight: lighter;}
+
+.seventh h2{font-size: 80px;text-align: center;color:#031738;margin-top: 50px;}
+.seventh .seven{background-color: #122341;margin: 20px 80px 20px 80px;display: flex;}
+.seven_left{width: 50%;}
+.seven_left img{padding: 30px;}
+.seven_right{width: 50%;}
+.seven_right h3{text-align: center;font-size: 50px;color: white;font-family: myfont;margin-top: 20px;}
+.seven_right h4{text-align: center;font-size: 20px;color: white;margin-top: 30px;margin-right: 50px;font-weight: lighter;}
+
+.eighth{height: 600px;}
+.eighth h2{text-align: center;font-size: 100px;font-family: myfont;font-weight: lighter;margin-top: 100px;}
+.eighth h3{text-align: center;font-size: 30px;background-color: #031738;color: white;padding: 50px;margin: 50px 500px 0px 500px;font-weight: lighter;}
+
+.nine{height:  750px;}
+.nine h2{text-align: center;font-size: 100px;font-family: myfont;font-weight: lighter;margin-top: 0px;}
+.nine_img{display: flex;align-items: center;justify-content: space-between;}
+.nine_img .nine_1{width: 350px;height: 550px;background-color: #244476;margin-left: 180px;margin-top: 20px; box-shadow: 10px 10px 10px;}
+.nine_img .one{margin-top: 20px;margin-left: -15px;}
+.nine_img p{color: white;margin-top: -70px;font-size: 40px;margin-left: 20px;}
+.nine_img h3{color: white; background-color: #031738;font-weight: lighter;font-size: 18px;padding: 20px;margin: 30px 10px 10px 10px; padding-top: 40px;padding-bottom: 40px;text-align: center;}
+.nine_img .nine_2{width: 350px;height: 550px;background-color: #244476;margin-top: 20px; box-shadow: 10px 10px 10px;}
+.nine_img .nine_3{width: 350px;height: 550px;background-color: #244476;margin-right: 180px;margin-top: 20px; box-shadow: 10px 10px 10px;}
+
+.footer{background-color: #031738;height: 400px;}
+.footer .top{display: flex;}
+.footer .logo{width: 50%;color: white;padding: 100px;}
+.footer .logo p{display: inline-flex; font-family: myfont;font-size: 40px;}
+.footer .right{text-align: right;width: 50%;display: flex;}
+.footer .right p{color: white;font-size: 30px;padding-bottom: 10px;text-align: left;}
+.footer .right ul{list-style-type: none;padding: 50px;margin-top: 50px;}
+.footer .right ul li{color: white;display: block;text-align: left;padding: 5px}
+.bottom {display: flex;justify-content: space-between;} 
+.bottom nav a{text-decoration: none;color: white;display: inline-block;padding: 20px;font-size: 20px;margin-left: 50px;}
+.bottom img{text-align: right;margin-right: 200px;margin-top: 25px;}
