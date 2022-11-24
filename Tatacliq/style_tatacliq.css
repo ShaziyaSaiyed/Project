@@ -1,0 +1,47 @@
+body{width: 100%; margin: 0px;padding: 0px;background-color:  rgb(236, 231, 231);}
+img{cursor: pointer;}
+.header{background-color: black;float: right;width: 80%;padding: 10px;margin-right: 0px;}
+div a{text-decoration: none;color: white;padding: 26px;position: relative}
+.logo{background-color: #212121;position: relative;width: 20%;padding-left: 10px;padding-top: 32px;padding-bottom: 21px;}
+div img{margin-left: 10px;margin-top: 10px;}
+.dropdown{background-color: #212121;color: white;margin-top: -70px;margin-left: 200px;padding-top: 10px;padding-bottom: 11px;font-size: 20px;position: relative;}
+div i{margin-left: 30px;}
+div input{ width: 400px;height: 40px;background-color: gray;}
+.slider img{width:100%;margin-top: 0px;margin-left: 0px;animation: slider 10s infinite linear;}
+
+/* @keyframes slider{
+    0%{background-image: url(image/shoes.jpg);}
+    20%{background-image: url(image/lady.jpg);}
+    40%{background-image: url(image/boat.jpg);}
+    60%{background-image: url(image/diwali.gif);}
+    80%{background-image: url(image/image1.jpg);} */
+
+
+.options {background-color: rgb(236, 231, 231);margin-top: -5px;}
+.options img{margin-top: 50px;}
+.banks{background-color: rgb(236, 231, 231);}
+.banks img{border: 2px solid white;border-radius: 5px;margin-top: 50px;}
+.dream img{width: 1000px;margin-top: 50px;}
+.dreamdeals img {margin-top: 100px;}
+.deals img{width: 1030px;margin-top: 100px;}
+.prices img{width: 1030px;margin-top: 80px;}
+.titan img{margin-top: 80px; border-radius: 30px;}
+.sports img{width: 1030px;margin-top: 100px;}
+.standing img{margin-top: 80px;width: 1030px;}
+.sportshoes{margin-top: 80px; border-radius: 30px;}
+.featured img{margin-top: 80px;width: 1030px;}
+.brands img{margin-top: 80px;}
+.block img{margin-top: 80px;width: 1030px;}
+.block-2 img{margin-top: 80px;}
+.block-4 img{margin-top: 80px;}
+.footer{background-color: rgb(199, 190, 190);text-align: center;}
+.footer li{list-style-type: none;padding: 50px; display: inline-block;font-size: 20px;}
+li{list-style-type: none;padding: 5px;}
+.end1{display: inline-block;width: 25%;margin-top: 10px;}
+.end2{display: inline-block;width: 25%;margin-top: 10px;}
+.end3{display: inline-block;width: 25%;margin-top: 10px;}
+.main{background-color: rgb(199, 190, 190);padding: 20px;}
+.one{display: inline; padding-left: 0px;}
+.two{display: inline; padding-left: 130px;padding-right: 130px;}
+.third{display: inline;}
+.foot{display: flex;}
